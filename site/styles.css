@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+serif');
+
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.upper-menu{
+	background-color: grey;
+	width: 100%;
+	height: 10%;
+	padding-top: 0.5%;
+	margin-left: 0;
+}
+.upper-menu ul{
+	padding-left: 70%;
+}
+.upper-menu li{
+	display:inline-block;
+	text-transform: uppercase;
+	list-style: none;
+	margin-left: 10%;
+}
+.upper-menu a{
+	text-decoration: none;
+	color: white;
+
+}
+.portfolio{
+	margin-top:5%;
+	margin-left: 3%;
+	border-radius: 50%;
+	width: 500px;
+	height:500px;
+	background:url("me.jpg");
+	background-size: 500px 500px;
+}
+.desc{
+	width: 700px;
+	height: 500px;
+	background-color:none;
+	float: right;
+	margin-top: -500px;
+	margin-right: 3%;
+}
+
+.desc p{
+	margin-left: 15px;
+	margin-right: 15px;
+	font-family: fantasy;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.desc span{
+	margin-left: 15px;
+	font-family: serif;
+	font-size: 25px;
+	font-style: italic;
+}
+
+.aboutme{
+	background-color: #e5e5e5;
+	width: 100%;
+	height: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-left: 0;
+	margin-top: 5%;
+
+}
+
+.aboutme #one,#two,#three{
+	width: 30%;
+	height: 200px;
+	background-color:#FFFFFF;
+	margin-left: 1.5%;
+	display: inline-block;
+	
+}	
+
+.aboutme #one{
+	background-image: url(https://www.israel21c.org/wp-content/uploads/2016/12/shutterstock_2017button-1168x657.jpg);
+	background-size: 100%;
+
+}
+
+.aboutme #two{
+	background-image: url(http://www.kubipet.com/data/out/37/iwp780129700-cooking-wallpapers.jpg);
+	background-size: 100%;
+	
+}
+
+.aboutme #three{
+	background-image: url(https://i.pinimg.com/originals/06/a4/30/06a430fd70c5d7a3c87f7eb6434c508d.jpg);
+	background-size: 100%;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+
+.aboutme h2{
+	font-family: serif;
+	color: #000000;
+}
+
+.more {
+	background-color: #e5e5e5;
+	width: 100%;
+	height: auto;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin-left: 0;
+	margin-top: 0;
+}
+.more #four,#five,#six{
+	width: 30%;
+	height: auto;
+	background-color:#FFFFFF;
+	margin-left: 1.5%;
+	display: inline-block;
+	
+}	
+
+.more #four{
+	background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX4139041.jpg);
+	background-size: 100%;
+	background-color: hsla(0,0%,100%,0.70);
+	background-blend-mode: overlay;
+	background-repeat: no-repeat;
+}
+
+.more #five{
+	background-image: url(https://ak2.picdn.net/shutterstock/videos/722314/thumb/1.jpg);
+	background-size: 100%;
+	background-color: hsla(0,0%,100%,0.70);
+	background-blend-mode: overlay;
+	background-repeat: no-repeat;
+}
+
+.more #six{
+	background-image: url(http://cliparting.com/wp-content/uploads/2017/03/Jazz-dancer-clipart-clipartfest.jpeg);
+	background-size: 100%;
+	background-color: hsla(0,0%,100%,0.70);
+	background-blend-mode: overlay;
+}
+
+.more p{
+	margin: 50px;
+}
+
+.cont{
+	width: 70%;
+	height: 200px;
+	background-color: #e5e5e5;
+	margin:15%;
+
+}
+
+.cont h1{
+	margin-left: 5%;
+	font-family: system-ui;
+	font-style: italic;
+}
+
+.cont li{
+	margin-left: 1%;
+	display: inline;
+}
+
+.loci{
+	width: 100%;
+	height: 200px;
+	background-color: #e5e5e5;
+	margin:0;
+	margin-top: 0;
+}
+
+.loci li{
+	width: 30%;
+	height: 100px;
+	background-color:none;
+	margin-left: 1.5%;
+	display: inline-block;
+}
+
+.loci img{
+	margin-top:40px; 
+	margin-left: 40%;
+}
+
+.loci span{
+	margin-top:10px; 
+	font-weight: bold;
+	font-family: serif;
+	color: #696969;
+}
+
+.fstory{
+	width: 100%;
+	height: auto;
+	background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX2422103.jpg);
+	background-repeat: no-repeat;
+	margin:0;
+	padding-top: 3%;
+	padding-bottom: 3%;	
+}
+
+.fstory p{
+	margin: 50px;
+	font-family: Droid serif, serif;
+	font-size: 30px;
+}
+
+.logos{
+	width: 100%;
+	height:200px;
+	background-color:#e5e5e5; 
+}
+
+.logos img{
+	height: 200px;
+	margin-left: 5%;
+}
